@@ -1,3 +1,8 @@
+# OSX
+#
+.DS_Store
+Icon?
+
 # Logs
 logs
 *.log
@@ -19,12 +24,6 @@ coverage
 
 # nyc test coverage
 .nyc_output
-
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
-
-# Bower dependency directory (https://bower.io/)
-bower_components
 
 # node-waf configuration
 .lock-wscript
@@ -56,6 +55,50 @@ typings/
 
 # dotenv environment variables file
 .env
+.env.staging
+.env.production
 
 # next.js build output
 .next
+
+# Xcode
+ios/build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# POD files
+ios/Pods
+
+# Android/IntelliJ
+android/build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# fastlane
+build
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/.env.*.secret
+.tmp
+
+
+
+
+

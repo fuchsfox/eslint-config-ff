@@ -1,6 +1,6 @@
 {
   "name": "@fuchsfox/eslint-config-ff",
-  "author": "FUCHSFOX (hello@fuchsfox.com)",
+  "author": "FUCHSFOX (tech@fuchsfox.com)",
   "license": "MIT",
   "version": "1.0.0",
   "description": "ESLint config of FUCHSFOX",

@@ -2,7 +2,7 @@
   "name": "@fuchsfox/eslint-config-ff",
   "author": "FUCHSFOX (tech@fuchsfox.com)",
   "license": "MIT",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "ESLint config of FUCHSFOX",
   "main": "index.js",
   "scripts": {
